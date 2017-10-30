@@ -21,15 +21,15 @@ class Navigation extends Component {
     return (
       <div>
         <Navbar color="dark" expand="md" dark>
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/">HeroTrack</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href='#'>Collection</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
+                <NavLink href='#'>Search</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

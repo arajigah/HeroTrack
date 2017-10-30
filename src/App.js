@@ -46,6 +46,7 @@ class App extends Component {
 	}
 
 	render() {
+		console.log(this.state.character);
 		let card;
 		if(!this.isEmpty(this.state.character)) {
 			card = <HeroCard character={this.state.character} />
@@ -54,9 +55,11 @@ class App extends Component {
 		}
 
 		return (
-		  <div className='container'>
+		  <div>
 			  <Navbar />
-			  {card}
+			  <div className='container-fluid' style={{border: '1px solid black'}}>
+				  {card}
+			  </div>
 		  </div>
 		);
 	}

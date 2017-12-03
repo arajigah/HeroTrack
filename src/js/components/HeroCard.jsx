@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Collapse, Button } from 'reactstrap';
-import './HeroCard.css';
+import { Card, CardImg, CardText, CardBody, CardTitle, Collapse } from 'reactstrap';
+import '../../styles/HeroCard.css';
 // image src format:
 // http://i.annihil.us/u/prod/marvel/i/mg/3/40/4bb4680432f73/portrait_xlarge.jpg
 
